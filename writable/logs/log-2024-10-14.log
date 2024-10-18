@@ -1,0 +1,220 @@
+CRITICAL - 2024-10-14 06:13:11 --> ErrorException: Undefined array key "profile_photo_url"
+[Method: GET, Route: dashboard/user/24]
+in APPPATH\Views\Dashboard.php on line 77.
+ 1 APPPATH\Views\Dashboard.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "profile_photo_url"', 'D:\\User Management\\app\\Views\\Dashboard.php', 77)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\User Management\\app\\Views\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Api\v1\Update.php(59): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\v1\Update->dashboard('24')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\v1\Update))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\User Management\\public\\index.php')
+CRITICAL - 2024-10-14 06:14:14 --> ParseError: syntax error, unexpected token ";", expecting ")"
+[Method: GET, Route: dashboard/user/24]
+in APPPATH\Views\Dashboard.php on line 77.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 3 APPPATH\Controllers\Api\v1\Update.php(59): view('dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\v1\Update->dashboard('24')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\v1\Update))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\User Management\\public\\index.php')
+CRITICAL - 2024-10-14 06:14:30 --> ErrorException: Undefined array key "profile_photo_url"
+[Method: GET, Route: dashboard/user/24]
+in APPPATH\Views\Dashboard.php on line 82.
+ 1 APPPATH\Views\Dashboard.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "profile_photo_url"', 'D:\\User Management\\app\\Views\\Dashboard.php', 82)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\User Management\\app\\Views\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Api\v1\Update.php(59): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\v1\Update->dashboard('24')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\v1\Update))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\User Management\\public\\index.php')
+CRITICAL - 2024-10-14 06:29:43 --> ErrorException: Undefined array key "profile_photo_url"
+[Method: GET, Route: dashboard/user/24]
+in APPPATH\Views\Dashboard.php on line 77.
+ 1 APPPATH\Views\Dashboard.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "profile_photo_url"', 'D:\\User Management\\app\\Views\\Dashboard.php', 77)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\User Management\\app\\Views\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Api\v1\Update.php(59): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\v1\Update->dashboard('24')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\v1\Update))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\User Management\\public\\index.php')
+CRITICAL - 2024-10-14 06:29:44 --> ErrorException: Undefined array key "profile_photo_url"
+[Method: GET, Route: dashboard/user/24]
+in APPPATH\Views\Dashboard.php on line 77.
+ 1 APPPATH\Views\Dashboard.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "profile_photo_url"', 'D:\\User Management\\app\\Views\\Dashboard.php', 77)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\User Management\\app\\Views\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Api\v1\Update.php(59): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\v1\Update->dashboard('24')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\v1\Update))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\User Management\\public\\index.php')
+CRITICAL - 2024-10-14 06:29:44 --> ErrorException: Undefined array key "profile_photo_url"
+[Method: GET, Route: dashboard/user/24]
+in APPPATH\Views\Dashboard.php on line 77.
+ 1 APPPATH\Views\Dashboard.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "profile_photo_url"', 'D:\\User Management\\app\\Views\\Dashboard.php', 77)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\User Management\\app\\Views\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Api\v1\Update.php(59): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\v1\Update->dashboard('24')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\v1\Update))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\User Management\\public\\index.php')
+CRITICAL - 2024-10-14 06:38:23 --> ErrorException: Undefined variable $result
+[Method: GET, Route: dashboard]
+in APPPATH\Views\Dashboard.php on line 79.
+ 1 APPPATH\Views\Dashboard.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'D:\\User Management\\app\\Views\\Dashboard.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\User Management\\app\\Views\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Dashboard', [], true)
+ 5 APPPATH\Controllers\Api\v1\UserController.php(17): view('Dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\v1\UserController->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\v1\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\User Management\\public\\index.php')
+CRITICAL - 2024-10-14 06:39:01 --> ErrorException: Undefined variable $result
+[Method: GET, Route: dashboard]
+in APPPATH\Views\Dashboard.php on line 84.
+ 1 APPPATH\Views\Dashboard.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'D:\\User Management\\app\\Views\\Dashboard.php', 84)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\User Management\\app\\Views\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Dashboard', [], true)
+ 5 APPPATH\Controllers\Api\v1\UserController.php(17): view('Dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\v1\UserController->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\v1\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\User Management\\public\\index.php')
+CRITICAL - 2024-10-14 06:40:11 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: dashboard/user/12]
+in APPPATH\Views\Dashboard.php on line 84.
+ 1 APPPATH\Views\Dashboard.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\User Management\\app\\Views\\Dashboard.php', 84)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\User Management\\app\\Views\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Api\v1\Update.php(59): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\v1\Update->dashboard('12')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\v1\Update))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\User Management\\public\\index.php')
+CRITICAL - 2024-10-14 06:56:43 --> ErrorException: Undefined variable $file
+[Method: GET, Route: uploadphoto/28]
+in APPPATH\Controllers\Api\v1\Update.php on line 67.
+ 1 APPPATH\Controllers\Api\v1\Update.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $file', 'D:\\User Management\\app\\Controllers\\Api\\v1\\Update.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\v1\Update->photo('28')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\v1\Update))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\User Management\\public\\index.php')
+CRITICAL - 2024-10-14 07:04:35 --> ErrorException: Undefined variable $file
+[Method: POST, Route: upload_photo/28]
+in APPPATH\Controllers\Api\v1\Update.php on line 67.
+ 1 APPPATH\Controllers\Api\v1\Update.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $file', 'D:\\User Management\\app\\Controllers\\Api\\v1\\Update.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\v1\Update->photo('28')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\v1\Update))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\User Management\\public\\index.php')
+CRITICAL - 2024-10-14 07:05:11 --> Error: Undefined constant "App\Controllers\Api\v1\file"
+[Method: POST, Route: upload_photo/28]
+in APPPATH\Controllers\Api\v1\Update.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\v1\Update->photo('28')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\v1\Update))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\User Management\\public\\index.php')
+CRITICAL - 2024-10-14 07:05:47 --> Error: Undefined constant "App\Controllers\Api\v1\file"
+[Method: POST, Route: upload_photo/28]
+in APPPATH\Controllers\Api\v1\Update.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\v1\Update->photo('28')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\v1\Update))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\User Management\\public\\index.php')
+CRITICAL - 2024-10-14 07:16:16 --> ErrorException: Undefined array key "profile_photo_url"
+[Method: GET, Route: dashboard/user/28]
+in APPPATH\Views\Dashboard.php on line 73.
+ 1 APPPATH\Views\Dashboard.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "profile_photo_url"', 'D:\\User Management\\app\\Views\\Dashboard.php', 73)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\User Management\\app\\Views\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Api\v1\Update.php(59): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\v1\Update->dashboard('28')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\v1\Update))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\User Management\\public\\index.php')
+CRITICAL - 2024-10-14 08:33:04 --> ErrorException: Undefined variable $result
+[Method: POST, Route: upload_photo/24]
+in APPPATH\Views\Dashboard.php on line 84.
+ 1 APPPATH\Views\Dashboard.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'D:\\User Management\\app\\Views\\Dashboard.php', 84)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\User Management\\app\\Views\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Dashboard', [], true)
+ 5 APPPATH\Controllers\Api\v1\Update.php(90): view('Dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\v1\Update->photo('24')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\v1\Update))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\User Management\\public\\index.php')
+CRITICAL - 2024-10-14 08:36:04 --> ErrorException: Undefined variable $result
+[Method: POST, Route: upload_photo/24]
+in APPPATH\Views\Dashboard.php on line 85.
+ 1 APPPATH\Views\Dashboard.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'D:\\User Management\\app\\Views\\Dashboard.php', 85)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\User Management\\app\\Views\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Dashboard', [], true)
+ 5 APPPATH\Controllers\Api\v1\Update.php(90): view('Dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\v1\Update->photo('24')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\v1\Update))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\User Management\\public\\index.php')
